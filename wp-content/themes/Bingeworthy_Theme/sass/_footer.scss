@@ -1,0 +1,38 @@
+footer{
+	background-color: rgba(84, 84, 90,1);
+	height:30vh;
+	position:absolute;
+	width:100%;
+	z-index:5;
+
+	.wrapper{
+		display:grid;
+	grid-template-columns:1fr 2fr;
+	grid-template-rows:1fr;
+	height:30vh;
+	}
+
+	a{
+		img{
+			width:80%;
+		}
+		align-self:center;
+		justify-self:center;
+	}
+
+	ul{
+		grid-template-columns:1fr 1fr 1fr;
+		display:grid;
+		align-self:center;
+		justify-self:end;
+		list-style-type:none;
+		width:50%;
+		grid-gap:10px;
+		align-items:center;
+
+		img{
+			width:50%;
+		}
+
+	}
+}
