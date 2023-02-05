@@ -1,0 +1,14 @@
+{
+  "name": "bingeworthy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "front-page.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vercel-php": "^0.5.2"
+  }
+}
